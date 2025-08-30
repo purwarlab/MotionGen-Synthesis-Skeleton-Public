@@ -1,6 +1,6 @@
 Hi there! Thank you for your interest in MotionGen. 
 
-This repository is a skeleton for kinematic synthesis of mechanisms for our app. 
+This repository is a skeleton for the kinematic synthesis of mechanisms for our app. 
 
 Files and what they are saving: 
 
@@ -14,13 +14,15 @@ We give one key to each mechanism type. Key is the string (e.g., 49), and value 
 
 3. datasetProcess.py 
 
-MotionGen has sorted the mechanisms into four-bar, six-bar and eight-bar. Feel free to use this sorted result.  
+MotionGen has sorted the mechanisms into four-bar, six-bar, and eight-bar. Feel free to use this sorted result.  
 
-Preferably, you can write all your synthesis codes in this script. We split the synthesis code to decode (under main.py), and 
+If you would like, you can write all your synthesis codes in this script. We split the synthesis code to decode (under main.py), and getMech (under datasetProcess.py). 
+
+This can be redundant for your research. Feel free to change them. 
 
 4. main.py 
 
-The main function for the backend server. You will need to start a backend server to communicate with MotionGen. 
+The main function of the backend server. You will need to start a backend server to communicate with MotionGen. 
 
 
 Prerequisites: 
@@ -32,13 +34,13 @@ Prerequisites:
 
 How to use: 
 
-To run the backend sever locally, you can: 
+To run the backend server locally, you can: 
 
 1. Go to this directory. In the console, use <python main.py>
 
 2. Open https://motiongen.io/core and press <ctrl + F2> to open panel. 
 
-3. Under text bar "Path Synthesis URL", change the link to your local server portal. 
+3. Under the text bar "Path Synthesis URL", change the link to your local server portal. 
 
     You may get the following messages in the console. For example, 
 
