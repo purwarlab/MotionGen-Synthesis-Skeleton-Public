@@ -1,8 +1,8 @@
 # Hi there! Thank you for your interest in MotionGen. 
 
-# This repository is a skeleton for the kinematic synthesis of mechanisms for our app. 
+This repository is a skeleton for the kinematic synthesis of mechanisms for our app. 
 
-Files and what they are saving: 
+# Files and what they are saving: 
 
 ## 1. BSIdict_468_062324_3.json -> Saves all the kinematic structure matrices (B, S, I) for the following dataset paper: 
 
