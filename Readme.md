@@ -4,7 +4,7 @@ This repository is a skeleton for the kinematic synthesis of mechanisms for our 
 
 # Files and what they are saving: 
 
-## 1. BSIdict_468_062324_3.json -> Saves all the kinematic structure matrices (B, S, I) for the following dataset paper: 
+## 1. BSIdict_468.json -> Saves all the kinematic structure matrices (B, S, I) for the following dataset paper: 
 
 "A Dataset of 3M Single-DOF Planar 4-, 6-, and 8-Bar Linkage Mechanisms With Open and Closed Coupler Curves for Machine Learning-Driven Path Synthesis"
 
